@@ -1,5 +1,5 @@
 #!/bin/bash
-nomeApp="<NOME-APP>"
+nomeApp="nomeApp"
 cd /appdir
 npm install
 
