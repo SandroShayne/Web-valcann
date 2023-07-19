@@ -5,10 +5,7 @@ files:
   - source: /
     destination: /appDeploy
 hooks:
-  AfterInstall:
-    - location: scripts/permissions.sh
-      timeout: 300
-      runas: root
+
   ApplicationStop:
     - location: scripts/stop.sh
       timeout: 300
