@@ -1,6 +1,6 @@
 #!/bin/bash
 nomeApp="nomeApp"
-cd /home/sandro/Downloads/React
+cd /appdir
 npm install
 
 sudo supervisord -c /etc/supervisord.conf
