@@ -1,6 +1,6 @@
 #!/bin/bash
 nomeApp="nomeApp"
-cd /appDeploy/scripts
+cd /appDeploy/src
 
 sudo npm install
 sudo npm start
