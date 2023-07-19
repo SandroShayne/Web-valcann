@@ -1,6 +1,7 @@
 #!/bin/bash
 nomeApp="nomeApp"
-cd /appDeploy/src
+cd /appDeploy/scripts
+
 npm install
 npm start
 sudo supervisorctl reread
