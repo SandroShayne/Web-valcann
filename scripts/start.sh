@@ -2,8 +2,8 @@
 nomeApp="nomeApp"
 cd /appDeploy/scripts
 
-npm install
-npm start
+sudo npm install
+sudo npm start
 sudo supervisorctl reread
 sudo supervisorctl update
 sudo supervisorctl start $nomeApp
