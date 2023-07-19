@@ -1,7 +1,8 @@
 #!/bin/bash
 nomeApp="nomeApp"
-cd /home/sandro/Downloads/React
-sudo npm install
-
-sudo supervisord -c /etc/supervisord.conf
+cd /nomeDeploy/src
+npm install
+npm start
+sudo supervisorctl reread
+sudo supervisorctl update
 sudo supervisorctl start $nomeApp
