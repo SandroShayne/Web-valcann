@@ -1,4 +1,4 @@
 #!/bin/bash
-nomeApp="nomeApp"
+nomeApp="sandroApp"
 
-sudo supervisorctl stop $nomeApp
+sudo supervisorctl stop $sandroApp
