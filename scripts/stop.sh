@@ -1,4 +1,4 @@
 #!/bin/bash
 nomeApp="nomeApp"
 
-sudo supervisorctl stop $nomeApp
+sudo supervisorctl stop all
