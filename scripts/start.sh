@@ -6,7 +6,7 @@ sudo npm start
 #sudo supervisord -c /etc/supervisord.conf
 sudo supervisorctl reread
 sudo supervisorctl update
-sudo supercisorctl start $sandroApp
+sudo supervisorctl start $sandroApp
 
 
 
