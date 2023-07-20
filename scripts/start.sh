@@ -1,6 +1,6 @@
 #!/bin/bash
 nomeApp="sandroApp"
-cd /appDeploy/src
+cd /appDeploy1/src
 sudo npm install
 sudo npm start
 #sudo supervisord -c /etc/supervisord.conf
