@@ -1,11 +1,12 @@
 #!/bin/bash
 nomeApp="nomeApp"
-cd /appDeploy
+cd /appDeploy/src
 sudo npm install
-sudo supervisord -c /etc/supervisord.conf
+sudo npm start
+#sudo supervisord -c /etc/supervisord.conf
 sudo supervisorctl reread
 sudo supervisorctl update
-
+sudo supercisorctl start $nomeApp
 
 
 
