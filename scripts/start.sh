@@ -3,7 +3,7 @@
 nomeApp="nomeApp"
 cd /appDeploy/src
 sudo npm install
-#sudo npm start
+sudo npm start
 
 
 sudo supervisorctl reread
