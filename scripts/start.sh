@@ -3,7 +3,8 @@
 nomeApp="nomeApp"
 cd /appDeploy/src
 sudo npm install
-sudo nvm use 12.18.3
+sudo nvm install v12
+sudo nvm use v12
 sudo npm start
 
 
