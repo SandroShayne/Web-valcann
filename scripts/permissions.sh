@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod +x /appDeploy/scripts/start.sh
+sudo chmod +x /home/ubuntu/Web-valcann/scripts/start.sh
