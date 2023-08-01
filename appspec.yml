@@ -3,7 +3,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /appDeploy
+    destination: /home/ubuntu/Web-valcann
 hooks:
   AfterInstall:
     - location: scripts/permissions.sh
